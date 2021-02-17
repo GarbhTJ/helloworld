@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
 
    // Send the response body as "Hello World from TJ!!!"
    response.end('Hello World\n')
-}).listen(3001)
+}).listen(3000)
 
 // Console will print the message
 console.log('Server running')

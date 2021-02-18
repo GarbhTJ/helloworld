@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: helloworld.js
-    destination: /usr/local/helloworld/
+    destination: /home/ec2-user/
   - source: scripts/helloworld.service
     destination: /lib/systemd/system/
 hooks:
